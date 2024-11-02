@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a Word Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Guess the Word</h1>
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs">
+                <!-- The input fields for each letter in the word will be generated here -->
+            </div>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>  
+                <p class="guess-left">Remaining Guesses: <span></span></p>
+                <p class="wrong-letter">Wrong letters: <span></span></p>
+            </div>
+            <button class="reset-btn">Reset Game</button>
+        </div>
+    </div>
+    <script src="js/word.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
